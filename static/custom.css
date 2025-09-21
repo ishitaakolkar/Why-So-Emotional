@@ -1,0 +1,26 @@
+/* Background colors per emotion */
+body[data-emotion="Happy"] { background: #eaffea; }
+body[data-emotion="Sad"] { background: #eaf2ff; }
+body[data-emotion="Angry"] { background: #ffeaea; }
+body[data-emotion="Fear"] { background: #fffbe6; }
+body[data-emotion="Surprise"] { background: #e6f7ff; }
+body[data-emotion="Neutral"] { background: #f5f5f5; }
+
+/* Emoji Pulse */
+.emoji-anim {
+    font-size: 96px;
+    animation: pulse 1.5s infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1);}
+    80% { transform: scale(1.15);}
+    100% { transform: scale(1);}
+}
+
+/* Sparkle/Calm overlays */
+.sparkle { background: url('../assets/animations/sparkle.gif') no-repeat center center; width: 100px; height: 100px;}
+.calm { background: url('../assets/animations/calm.gif') no-repeat center center; width: 100px; height: 100px;}

@@ -2,7 +2,6 @@ import streamlit as st
 from model.emotion_model import EmotionRecognizer
 from utils.video_utils import get_video_frame, get_uploaded_image
 from utils.ui_utils import display_dashboard
-import cv2
 
 st.set_page_config(page_title="Real-Time Emotion Recognition", layout="centered", page_icon=":smiley:")
 st.title("Real-Time Emotion Recognition :smiley:")

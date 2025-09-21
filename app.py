@@ -1,21 +1,17 @@
 import streamlit as st
 from model.emotion_model import EmotionRecognizer
 from utils.video_utils import get_video_frame, get_uploaded_image
-from utils.ui_utils import display_dashboard, set_custom_theme
+from utils.ui_utils import display_dashboard
 import cv2
 
-# Set custom theme and page config
-set_custom_theme()
 st.set_page_config(page_title="Real-Time Emotion Recognition", layout="centered", page_icon=":smiley:")
-
 st.title("Real-Time Emotion Recognition :smiley:")
 st.markdown("""
 Welcome to the interactive emotion recognition app!  
 Detect emotions from your webcam or uploaded images in real time.  
-Enjoy dynamic dashboards, emoji overlays, and a polished experience.
+Enjoy dynamic dashboards, emoji overlays, custom mood responses, and animated visuals!
 """)
 
-# Sidebar for input type
 input_mode = st.sidebar.radio("Choose Input Mode:", ("Webcam", "Image Upload"))
 emotion_recognizer = EmotionRecognizer()
 

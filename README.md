@@ -1,6 +1,6 @@
 # Real-Time Emotion Recognition Web App 😃
 
-A fun, interactive, and professional-quality AI application to recognize emotions from facial expressions in real-time or from images — built with Python, Streamlit, and deep learning!
+A professional, interactive AI app that recognizes emotions from faces in real time or images—built with Python, Streamlit, and deep learning!
 
 ![Demo GIF](assets/demo.gif)
 
@@ -8,12 +8,12 @@ A fun, interactive, and professional-quality AI application to recognize emotion
 
 ## 🚀 Features
 
-- **Live Webcam Feed**: Real-time emotion detection using your webcam.
-- **Image Upload**: Fallback option to upload images for emotion analysis.
-- **Deep Learning Model**: Uses MobileNet/FER2013 for accurate emotion recognition.
-- **Dynamic Dashboard**: See detected emotion, live confidence graph, emoji overlays, and emotion timeline.
-- **Polished UI/UX**: Custom color themes, subtle animations, and a clean, professional layout.
-- **Beginner-Friendly Code**: Modular, readable, well-commented, and ready for collaboration!
+- **Live Webcam or Image Upload**: Real-time emotion detection.
+- **Dynamic Mood-Based Responses**: Custom motivational or fun messages for each emotion.
+- **Emotion-Based Animations**: Sparkle/calm effects, color-changing backgrounds.
+- **Dashboard**: Emotion + accuracy %, large animated emoji, confidence graph, and timeline.
+- **Polished UI/UX**: Clean layout, custom color themes, subtle emoji pulse animation.
+- **Beginner-Friendly Code**: Modular, readable, commented—ready for collaboration!
 
 ---
 
@@ -43,9 +43,9 @@ A fun, interactive, and professional-quality AI application to recognize emotion
 
 ## 🤖 Model Explanation
 
-- **Architecture**: Lightweight CNN or MobileNet transfer learning, trained on FER2013 dataset.
+- **Architecture**: Lightweight CNN or MobileNet, trained on FER2013.
 - **Input**: 48x48 grayscale face images.
-- **Output**: Emotion probabilities — Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral.
+- **Output**: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral (with confidence).
 
 ---
 
@@ -58,7 +58,7 @@ A fun, interactive, and professional-quality AI application to recognize emotion
 
 ## 👥 Contribution Guidelines
 
-- Fork the repo and create a pull request for improvements.
+- Fork, add improvements, and submit a pull request.
 - Please document your code and add clear commit messages.
 - Check issues for ideas or bugs to fix!
 

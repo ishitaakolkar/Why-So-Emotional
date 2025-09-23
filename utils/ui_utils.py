@@ -61,4 +61,4 @@ def display_dashboard(frame, emotion, confidence):
         st.progress(confidence)
         st.markdown(f"**Mood Response:**<br><i>{get_mood_response(emotion)}</i>", unsafe_allow_html=True)
         st.write("Emotion History Timeline (last 5)")
-        st.line_chart([confidence])  # Replace with full history in expanded version
+        st.line_chart([confidence])

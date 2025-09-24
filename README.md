@@ -30,11 +30,7 @@ A professional, interactive AI app that recognizes emotions from faces in real t
    pip install -r requirements.txt
    ```
 
-3. **Download pre-trained model**
-   - Place `emotion_model.h5` (MobileNet/FER2013) in the `model/` folder.
-   - [Get model weights here](https://github.com/oarriaga/face_classification) or use your own.
-
-4. **Run the app**
+3. **Run the app**
    ```bash
    streamlit run app.py
    ```

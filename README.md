@@ -2,7 +2,6 @@
 
 A professional, interactive AI app that recognizes emotions from faces in real time or images—built with Python, Streamlit, and deep learning!
 
-![Demo GIF](assets/demo.gif)
 
 ---
 

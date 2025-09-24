@@ -43,7 +43,7 @@ A professional, interactive AI app that recognizes emotions from faces in real t
 
 ## 🤖 Model Explanation
 
-- **Architecture**: Lightweight CNN or MobileNet, trained on FER2013.
+- **Architecture**: Lightweight CNN trained on FER2013.
 - **Input**: 48x48 grayscale face images.
 - **Output**: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral (with confidence).
 

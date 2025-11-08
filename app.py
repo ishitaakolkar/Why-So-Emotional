@@ -23,7 +23,11 @@ elif input_mode == "Image Upload":
 else:
     frame = None
 
-
+if frame is not None:
+    emotion, confidence = emotion_recognizer.predict(frame)
+    display_dashboard(frame, emotion, confidence)
+else:
+    st.warning("No input detected. Please enable your webcam or upload an image.")
 
 st.markdown("---")
 st.markdown("Made with :heart: using Streamlit & Deep Learning | [GitHub Repo](https://github.com/ishitaakolkar/emotion-recognition-streamlit)")

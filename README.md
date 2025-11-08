@@ -44,13 +44,6 @@ A professional, interactive AI app that recognizes emotions from faces in real t
 
 ---
 
-## 📸 Screenshots
-
-![Screenshot](assets/screenshots/demo_ui.png)
-![Dashboard](assets/screenshots/dashboard.png)
-
----
-
 ## 👥 Contribution Guidelines
 
 - Fork, add improvements, and submit a pull request.

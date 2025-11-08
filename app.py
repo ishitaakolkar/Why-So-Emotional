@@ -5,7 +5,7 @@ from utils.ui_utils import display_dashboard
 
 st.set_page_config(page_title="Real-Time Emotion Recognition", layout="centered", page_icon=":smiley:")
 st.title("Real-Time Emotion Recognition :smiley:")
-st.markdown(
+st.markdown("""
 Welcome to the interactive emotion recognition app!  
 Detect emotions from your webcam or uploaded images in real time.  
 Enjoy dynamic dashboards, emoji overlays, custom mood responses, and animated visuals!

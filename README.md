@@ -1,4 +1,4 @@
-# Real-Time Emotion Recognition Web App 😃
+# Real-Time Emotion Recognition Web App 
 
 A professional, interactive AI app that recognizes emotions from faces in real time or images—built with Python, Streamlit, and deep learning!
 
